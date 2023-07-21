@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web site</title>
+    <base target="_top">
+</head>
+<body>
+
+     <? var url = getUrl()?>
+  
+   <form action="<?= url ?>"method="POST">
+
+    <label for="nomedoaluno">nome do aluno</label>
+    <input type="text"id="nomedoaluno" name="nomedoaluno"/>
+
+    <label for="datadenascimento">data de nascimento]</label>
+    <input type="date"id="datadenascimento" name="datadenascimento"/>
+
+    <label for="nomedoresponsavel">nome do responsavel</label>
+    <input type="text"id="nomedoresponsavel" name="nomedoresponsavel"/>
+
+    <label for="endereco">endereço</label>
+    <input type="text"id="endereco" name="endereco"/>
+
+    <label for="bairro">bairro</label>
+    <input type="text"id="bairro" name="bairro"/>
+
+    <label for="numerodacasa">numero da casa</label>
+    <input type="number"id="numerodacasa" name="numerodacasa"/>
+
+    <label for="cidade">cidade</label>
+    <input type="text"id="cidade" name="cidade"/>
+
+    <label for="telefoneparacontato">telefone para contato</label>
+    <input type="text"id="telefoneparacontato" name="telefoneparacontato"/>
+
+     <label for="serie">serie</label>
+    <input type="number"id="serie" name="serie"/>
+
+    <label for="turma">turma</label>
+    <input type="text"id="turma" name="turma"/>
+
+     <label for="turno">turno</label>
+    <input type="text"id="turno" name="turno"/>
+
+    <button type="submit">Cadastra</button>
+   </form>
+    
+</body>
+</html>
